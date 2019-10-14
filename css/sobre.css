@@ -4,7 +4,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 940px;
-    /*text-align: justify */
+    text-align: justify;
 }
 
 .fundo {
@@ -20,6 +20,10 @@ h2 {
 p {
     padding: 0 45px;
     text-indent: 15px;
+}
+
+a{
+    color: #003366;
 }
 
 figure {

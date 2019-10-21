@@ -1,4 +1,8 @@
 body {
+    margin: 0px;
+}
+
+article {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-left: auto;
@@ -12,6 +16,19 @@ body {
     padding: 10px;
 }
 
+p::first-letter{
+    font-weight: bold;
+}
+
+
+h1+p {
+    text-indent: 0;
+}
+
+p::first-line{
+    font-variant: small-caps;
+}
+
 h2 {
     border-bottom: 2px solid #333333;
     margin-top: 30px;
@@ -22,7 +39,7 @@ p {
     text-indent: 15px;
 }
 
-a{
+a {
     color: #003366;
 }
 
@@ -45,19 +62,13 @@ figcaption {
     width: 550px;
 }
 
-#rodape {
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
-}
-
-#rodape img {
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
-}
-
 #familia-pelho {
     float: right;
     margin: 0 0 10px 10px;
+}
+
+.social {
+    position: absolute;
+    top: 0px;
+    right: 0;
 }

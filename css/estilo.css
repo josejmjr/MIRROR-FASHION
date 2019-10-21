@@ -8,6 +8,10 @@ header {
 }
 
 .sacola {
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: top right;
@@ -44,12 +48,6 @@ header {
     color: #867DC6;
 }
 
-.sacola {
-    padding-top: 8px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
 
 .container {
     margin: 0 auto;
